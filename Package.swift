@@ -18,10 +18,10 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "GoTrue", url: "https://github.com/supabase/gotrue-swift.git", .branch("main")),
-        .package(name: "SupabaseStorage", url: "https://github.com/supabase/storage-swift.git", .branch("main")),
-        .package(name: "Realtime", url: "https://github.com/supabase/realtime-swift.git", .branch("main")),
-        .package(name: "PostgREST", url: "https://github.com/supabase/postgrest-swift", .branch("master")),
+        .package(name: "GoTrue", url: "https://github.com/samjproctor/gotrue", .branch("playground-test")),
+        .package(name: "SupabaseStorage", url: "https://github.com/samjproctor/storage-swift", .branch("playground-test")),
+        .package(name: "Realtime", url: "https://github.com/samjproctor/realtime", .branch("playground-test")),
+        .package(name: "PostgREST", url: "https://github.com/samjproctor/postgREST", .branch("playground-test")),
     ],
     targets: [
         .target(
